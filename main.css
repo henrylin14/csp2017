@@ -39,16 +39,12 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
-.aboutmetext{
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+.generaltext{
   background-color: #fac564;
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5908/food.png);
     font-family: "Montserrat",sans-serif;
     font-size: 30px;
-    text-align: justify;
+    text-align: center;
 }
 
 .quote{
@@ -69,4 +65,20 @@ margin-bottom: 10px;
   margin-left: 1200px;
   font-size: 70px;
   font-family: "Montserrat",sans-serif;
+}
+
+.mazestarter{
+  content:url('Images/mazestarter.JPG');
+  display: block;
+  margin: 0 auto;
+  width: 1500px;
+  height: 750px;
+}
+
+.portfolioprojects{
+  background-color: #fac564;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5908/food.png);
+    font-family: "Montserrat",sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
