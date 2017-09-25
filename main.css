@@ -75,6 +75,14 @@ margin-bottom: 10px;
   height: 750px;
 }
 
+.pong{
+  content:url('Images/pong.JPG');
+  display: block;
+  margin: 0 auto;
+  width: 1500px;
+  height: 750px;
+}
+
 .portfolioprojects{
   background-color: #fac564;
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5908/food.png);
