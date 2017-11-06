@@ -1,3 +1,4 @@
+
 global armor
 armor = "none"
 def introduction():
@@ -10,7 +11,7 @@ def Start():
    HelpOrNo()
 
 def HelpOrNo(): 
-    print "Do you help save the princess?"
+    print "King: Do you help save the princess?"
     print "Type y for yes and n for no"
     answer = raw_input()
     if answer == "y":
@@ -44,11 +45,7 @@ def mountain():
 	answer = raw_input()
 	if answer == "c":
 		armorcheck()
-	#	if answer == "c" and armor == "leather":
-#		print "You died. The end."
-#	if answer == "c" and armor == "metal":
-#		print "You were pushed back by the fire!"
-#		survive()
+
 	if answer == "h":
 		print "The fire hit the rocks and missed you."
 		survive()
